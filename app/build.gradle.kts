@@ -58,9 +58,13 @@ dependencies {
     // Navigation Compose
     implementation("androidx.navigation:navigation-compose:2.7.7")
 
-// ViewModel
+    // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
 
-// Icons extendidos (para íconos del bottom bar)
+    // DataStore Preferences
+    implementation("androidx.datastore:datastore-preferences:1.1.1")
+
+    // Icons extendidos (para íconos del bottom bar)
     implementation("androidx.compose.material:material-icons-extended:1.6.4")
 }
